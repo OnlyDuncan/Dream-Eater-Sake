@@ -35,16 +35,25 @@ h2 {
   margin-top: 2rem;
 }
 
+.nav-link {
+  font-family: 'Poppins', Bold;
+}
+
+.nav-item {
+  font-size: 40px;
+}
+
 .navbar-brand {
   max-width: 4rem;
   margin-right: 2rem;
 }
 
 .navbar-brand img {
-  width: 100%;
-  height: 100%;
+  width: 200%;
+  height: 200%;
   margin-right: 2rem;
-  max-width: 4rem;
+  margin-top: 2rem;
+  max-width: 7rem;
 }
 
 .navbar-dark {
