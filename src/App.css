@@ -29,12 +29,6 @@ h2 {
   min-height: 200px;
 }
 
-.site-footer {
-  background-image: linear-gradient(#cec8ff, white);
-  padding: 20px 0;
-  margin-top: 2rem;
-}
-
 .nav-link {
   font-family: 'Poppins', Bold;
 }
@@ -64,22 +58,17 @@ h2 {
   min-height: 8rem;
 }
 
-.page-enter {
-  opacity: 0;
-  transform: translateX(-100%);
+.page-background {
+  background-color: #9b9fda;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-.page-enter-active {
-  opacity: 1;
-  transform: translateX(0%);
-  transition: 300ms ease-out;
-}
-
-.page-exit {
-  opacity: 1;
-}
-
-.page-exit-active {
-  opacity: 0;
-  transition: 300ms ease-in;
+.homepage-logo {
+  width: 300px;
+  height: 250px;
+  transform: translateY(30%);
 }
