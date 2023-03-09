@@ -1,21 +1,7 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-h1,
-h2,
-h3,
-.card-body > .card-title {
-  font-family: 'Lobster', cursive;
-}
 
 .card-title {
   font-weight: 500;
   font-size: 1.25rem;
-}
-
-h2 {
-  color: #3046c5;
 }
 
 .card-img-overlay .card-title {
@@ -30,7 +16,7 @@ h2 {
 }
 
 .nav-link {
-  font-family: 'Poppins', Bold;
+  font-family: "lust", serif;
 }
 
 .nav-item {
@@ -49,26 +35,60 @@ h2 {
   margin-right: 2rem;
   margin-top: 2rem;
   max-width: 7rem;
+  transform: translateY(-10%);
 }
 
 .navbar-dark {
   background-color: #901cad;
   background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a);
-  margin-bottom: 2rem;
   min-height: 8rem;
 }
 
-.page-background {
-  background-color: #9b9fda;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+.homepage-logo {
+  width: 320px;
+  height: 250px;
 }
 
-.homepage-logo {
-  width: 300px;
-  height: 250px;
-  transform: translateY(30%);
+.sakepageimages {
+  background-color: white;
+  width: 150px;
+  height: 200px;
+}
+
+.eventpageimages {
+  background-color: white;
+  width: 250px;
+  height: 150px;
+}
+
+.shoppageimages {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+}
+
+.aboutpageimages {
+  background-color: white;
+  width: 250px;
+  height: 150px;
+}
+
+.subheader {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "lust", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-footer {
+  background-image: linear-gradient(#cec8ff, white);
+  padding: 20px 0;
 }
