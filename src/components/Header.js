@@ -21,7 +21,7 @@ const Header = () => {
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className= "ms-auto" navbar>
                     <NavItem>
-                        <Link className="nav-link" activeClass="active" to="HomePage" spy={true} smooth={true} offset={-150} duration={500}>
+                        <Link className="nav-link" activeClass="active" to="HomePage" spy={true} smooth={true} offset={-130} duration={500}>
                             Home
                         </Link>
                     </NavItem>
