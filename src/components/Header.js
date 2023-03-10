@@ -26,22 +26,22 @@ const Header = () => {
                         </Link>
                     </NavItem>
                     <NavItem>
-                        <Link className='nav-link' activeClass="active" to="SakePage" spy={true} smooth={true} offset={-60} duration={500}>
+                        <Link className='nav-link' activeClass="active" to="SakePage" spy={true} smooth={true} offset={-130} duration={500}>
                             Sake
                         </Link>
                     </NavItem>
                     <NavItem>
-                        <Link className='nav-link' activeClass="active" to="EventsPage" spy={true} smooth={true} offset={-150} duration={500}>
+                        <Link className='nav-link' activeClass="active" to="EventsPage" spy={true} smooth={true} offset={-130} duration={500}>
                             Events
                         </Link>
                     </NavItem>
                     <NavItem>
-                        <Link className='nav-link' activeClass="active" to="ShopPage" spy={true} smooth={true} offset={-150} duration={500}>
+                        <Link className='nav-link' activeClass="active" to="ShopPage" spy={true} smooth={true} offset={-130} duration={500}>
                             Shop
                         </Link>
                     </NavItem>
                     <NavItem>
-                        <Link className='nav-link' activeClass="active" to="AboutPage" spy={true} smooth={true} offset={-150} duration={500}>
+                        <Link className='nav-link' activeClass="active" to="AboutPage" spy={true} smooth={true} offset={-130} duration={500}>
                             About
                         </Link>
                     </NavItem>
