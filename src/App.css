@@ -9,12 +9,6 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.row-content {
-  padding: 50px 0;
-  border-bottom: 1px ridge;
-  min-height: 200px;
-}
-
 .nav-link {
   font-family: "lust", serif;
 }
@@ -50,27 +44,24 @@
 }
 
 .sakepageimages {
-  background-color: white;
   width: 150px;
   height: 200px;
 }
 
 .eventpageimages {
-  background-color: white;
   width: 250px;
   height: 150px;
 }
 
 .shoppageimages {
-  background-color: white;
   width: 200px;
   height: 200px;
 }
 
 .aboutpageimages {
-  background-color: white;
-  width: 250px;
-  height: 150px;
+  margin: auto;
+  width: 350px;
+  height: 250px;
 }
 
 .subheader {
@@ -92,3 +83,4 @@
   background-image: linear-gradient(#cec8ff, white);
   padding: 20px 0;
 }
+

@@ -1,5 +1,9 @@
 import { Col, Row, Container, Card, CardBody, CardHeader } from 'reactstrap';
 import logo from '../app/assets/img/Portfolio_Project_Logo.png';
+import sakePageImage1 from '../app/assets/img/Sake_Page_Image_1.png';
+import eventPageImage1 from '../app/assets/img/Event_Page_Image_1.png';
+import shopPageImage1 from '../app/assets/img/Shop_Page_Image_1.png';
+import aboutPageImage from '../app/assets/img/About_Page_Image.png';
 
 const HomePage = () => {
     return (
@@ -20,19 +24,19 @@ const HomePage = () => {
                 <Row>
                     <Col />
                     <Col>
-                        <div className = "sakepageimages" />
+                        <img src={sakePageImage1} alt="Sake Page Image 1" className = "sakepageimages" />
                         <br />
                         <div className = "centered">Flavor Profile</div>
                     </Col>
                     <Col />
                     <Col>
-                        <div className = "sakepageimages" />
+                        <img src={sakePageImage1} alt="Sake Page Image 1" className = "sakepageimages" />
                         <br />
                         <div className = "centered">Flavor Profile</div>
                     </Col>
                     <Col />
                     <Col>
-                        <div className = "sakepageimages" />
+                        <img src={sakePageImage1} alt="Sake Page Image 1" className="sakepageimages" />
                         <br />
                         <div className = "centered">Flavor Profile</div>
                     </Col>
@@ -53,7 +57,7 @@ const HomePage = () => {
                     </Col>
                     <Col />
                     <Col>
-                        <div className = "eventpageimages" />
+                        <img src={eventPageImage1} alt="Event Page Image 1" className="eventpageimages" />
                     </Col>
                     <Col />
                 </Row>
@@ -61,7 +65,7 @@ const HomePage = () => {
                 <Row>
                     <Col />
                     <Col>
-                        <div className = "eventpageimages" />
+                        <img src={eventPageImage1} alt="Event Page Image 1" className="eventpageimages" />
                     </Col>
                     <Col />
                     <Col>
@@ -80,19 +84,19 @@ const HomePage = () => {
                 <Row>
                     <Col />
                     <Col>
-                        <div className = "shoppageimages" />
+                        <img src={shopPageImage1} alt="Shop Page Image 1" className="shoppageimages" />
                         <br />
                         <div className = "centered">Product Name</div>
                     </Col>
                     <Col />
                     <Col>
-                        <div className = "shoppageimages" />
+                        <img src={shopPageImage1} alt="Shop Page Image 1" className="shoppageimages" />
                         <br />
                         <div className = "centered">Product Name</div>
                     </Col>
                     <Col />
                     <Col>
-                        <div className = "shoppageimages" />
+                        <img src={shopPageImage1} alt="Shop Page Image 1" className="shoppageimages" />
                         <br />
                         <div className = "centered">Product Name</div>
                     </Col>
@@ -105,23 +109,22 @@ const HomePage = () => {
                     </Col>
                 </Row>
             </div>
-            <div id = "AboutPage" style={{ backgroundColor: "#61419f", paddingTop: 50, paddingBottom: 200, height: 500 }}>
-                <Row>
-                    <Col>
-                        <h2 className = "subheader" style={{ paddingBottom: 100 }}>About Us</h2>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col />
-                    <Col>
-                        <div>Description</div>
-                    </Col>
-                    <Col />
-                    <Col>
-                        <div className = "aboutpageimages" />
-                    </Col>
-                    <Col />
-                </Row>
+            <div id = "AboutPage" style={{ backgroundColor: "#61419f", paddingTop: 50, paddingBottom: 600, height: 500 }}>
+                <h2 className = "subheader" style={{ paddingBottom: 100 }}>About Us</h2>
+                <Container style={{ display: 'flex' }}>
+                    <Row>
+                        <Col xs='12' sm='6'>
+                            <img src={aboutPageImage} alt="About Page Image" className="aboutpageimages" />
+                        </Col>
+                        <Col >
+                            <p style={{ color: "white", textAlign: 'center' }}>
+                                Based in Marfa, Texas, Dream Eater Sake is dedicated to creating the most unique and memorable mixological experiences available.
+                                Inspired by the unconcious mind, each flavor is a one of a kind multi-sensory experience that is guaranteed to bring back memories of your most peaceful, pleasureable, and terrifying oneironautical journeys.
+                                Our sake is a dream come true.
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         </Container>
     );
