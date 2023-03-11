@@ -109,15 +109,15 @@ const HomePage = () => {
                     </Col>
                 </Row>
             </div>
-            <div id = "AboutPage" style={{ backgroundColor: "#61419f", paddingTop: 50, paddingBottom: 600, height: 500 }}>
+            <div id = "AboutPage" style={{ backgroundColor: "#61419f", paddingTop: 50, paddingBottom: 700, height: 500 }}>
                 <h2 className = "subheader" style={{ paddingBottom: 100 }}>About Us</h2>
                 <Container style={{ display: 'flex' }}>
-                    <Row>
-                        <Col xs='12' sm='6'>
+                    <Row style={{ margin: "auto" }}>
+                        <Col xs='12' md='6'>
                             <img src={aboutPageImage} alt="About Page Image" className="aboutpageimages" />
                         </Col>
                         <Col >
-                            <p style={{ color: "white", textAlign: 'center' }}>
+                            <p style={{ color: "white", textAlign: 'center', marginLeft: "40px", marginRight: "40px" }}>
                                 Based in Marfa, Texas, Dream Eater Sake is dedicated to creating the most unique and memorable mixological experiences available.
                                 Inspired by the unconcious mind, each flavor is a one of a kind multi-sensory experience that is guaranteed to bring back memories of your most peaceful, pleasureable, and terrifying oneironautical journeys.
                                 Our sake is a dream come true.

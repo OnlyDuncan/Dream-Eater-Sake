@@ -59,9 +59,13 @@
 }
 
 .aboutpageimages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   width: 350px;
   height: 250px;
+  margin-bottom: 40px;
 }
 
 .subheader {
