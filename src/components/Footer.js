@@ -3,11 +3,16 @@ import { Container, Row, Col } from 'reactstrap';
 const Footer = () => {
     return (
         <footer className = 'site-footer'>
-            <Container>
+            <Container fluid>
                 <Row>
-                    <Col />
-                    <Col xs='6' sm='3' className='text-center'>
-                        <h5>Social</h5>
+                    <Col xs='12' md='4' className='text-center' style={{ marginBottom: "20px" }}>
+                        <h5 className="lust">Location</h5>
+                        <div className="poppins" style={{ color: "white" }}>
+                            1313 E Nothing St, Marfa, TX 79843
+                        </div>
+                    </Col>
+                    <Col xs='12' md='4' className='text-center' style={{ marginBottom: "20px" }}>
+                        <h5 className="lust">Social</h5>
                         <a
                             className='btn btn-social-icon btn-instagram'
                             href='http://instagram.com/'
@@ -20,34 +25,15 @@ const Footer = () => {
                         >
                             <i className='fa fa-facebook' />
                         </a>{' '}
-                        <a
-                            className='btn btn-social-icon btn-twitter'
-                            href='http://twitter.com/'
-                        >
-                            <i className='fa fa-twitter' />
-                        </a>{' '}
-                        <a
-                            className='btn btn-social-icon btn-google'
-                            href='http://youtube.com/'
-                        >
-                            <i className='fa fa-youtube' />
-                        </a>
                     </Col>
-                    <Col sm='4' className='text-center'>
-                        <a
-                            role='button'
-                            className='btn btn-link'
-                            href='tel:+12345678910'
-                        >
-                            <i className='fa fa-phone' /> 1-234-567-8910
+                    <Col xs='12' md='4' className='text-center'>
+                        <h5 className="lust">Contact</h5>
+                        <a role='button' className='poppins' href='tel:+12345678910' style={{ textDecoration: "none", color: "white" }}>
+                            1-234-567-8910
                         </a>
                         <br />
-                        <a
-                            role='button'
-                            className='btn btn-link'
-                            href='mailto:notreal@notreal.co'
-                        >
-                            <i className='fa fa-envelope-o' /> DreamEaterSake@gmail.com
+                        <a role='button' className='poppins' href='mailto:notreal@notreal.co' style={{ textDecoration: "none", color: "white" }}>
+                            DreamEaterSake@gmail.com
                         </a>
                     </Col>
                 </Row>

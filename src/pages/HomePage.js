@@ -1,4 +1,4 @@
-import { Col, Row, Container, Card, CardBody, CardHeader } from 'reactstrap';
+import { Col, Row, Container } from 'reactstrap';
 import logo from '../app/assets/img/Portfolio_Project_Logo.png';
 import sakePageImage1 from '../app/assets/img/Sake_Page_Image_1.png';
 import eventPageImage1 from '../app/assets/img/Event_Page_Image_1.png';
@@ -15,78 +15,78 @@ const HomePage = () => {
                     </Col>
                 </Row>
             </div>
-            <div id = "SakePage" style={{ backgroundColor: "#d1d3e8", paddingTop: 50, paddingBottom: 200 }}>
+            <div id = "SakePage" style={{ backgroundColor: "#b8e0dc", paddingTop: 50, paddingBottom: 200 }}>
                 <h2 className = "subheader" style={{ paddingBottom: 100 }}>Our Sake Selection</h2>
-                <Container style={{ display: "flex" }}>
+                <Container fluid style={{ display: "flex" }}>
                     <Row style={{ margin: "auto" }}>
                         <Col xs='12' md='4' style={{ marginBottom: "40px" }}>
                             <img src={sakePageImage1} alt="Sake Page Image 1" className = "sakepageimages" />
                             <br />
-                            <div className = "centered poppins">Flavor Profile</div>
+                            <div className = "centered lust" style={{ color: "gray" }}>Sweet Dreams</div>
                         </Col>
                         <Col xs='12' md='4' style={{ marginBottom: "40px" }}>
                             <img src={sakePageImage1} alt="Sake Page Image 1" className = "sakepageimages" />
                             <br />
-                            <div className = "centered poppins">Flavor Profile</div>
+                            <div className = "centered lust" style={{ color: "gray" }}>Strange Journeys</div>
                         </Col>
                         <Col xs='12' md='4' style={{ marginBottom: "40px" }}>
                             <img src={sakePageImage1} alt="Sake Page Image 1" className="sakepageimages" />
                             <br />
-                            <div className = "centered poppins">Flavor Profile</div>
+                            <div className = "centered lust" style={{ color: "gray" }}>Dark Nightmares</div>
                         </Col>
                     </Row>
                 </Container>
             </div>
             <div id = "EventsPage" style={{ backgroundColor: "#9ec2e0", paddingTop: 50, paddingBottom: 200 }}>
                 <h2 className = "subheader" style={{ paddingBottom: 100 }}>Upcoming Events</h2>
-                <Container style={{ display: "flex" }}>
+                <Container fluid style={{ display: "flex" }}>
                     <Row style={{ margin: "auto" }}>
-                        <Col xs={{ span: '12', order: 0 }} md='6' style={{ marginBottom: "40px" }}>
-                            <div className="poppins centered">Event Name</div>
-                            <div className="poppins centered">Event Description</div>
+                        <Col xs={{ size: '12', order: 0 }} md='6' style={{ marginBottom: "40px" }}>
+                            <div className="lust centered" style={{ color: "gray" }}>Dream Film Festival</div>
+                            <div className="poppins centered" style={{ color: "gray" }}>Event Description</div>
                         </Col>
-                        <Col xs={{ span: '12', order: 1 }} md='6'>
+                        <Col xs={{ size: '12', order: 1 }} md='6'>
                             <img src={eventPageImage1} alt="Event Page Image 1" className="eventpageimages" />
                         </Col>
                         <br />
-                        <Col xs={{ span: '12', order: 3 }} md='6'>
-                            <img src={eventPageImage1} alt="Event Page Image 1" className="eventpageimages" />
+                        <Col xs={{ size: '12', order: 2 }} md='6' style={{ marginBottom: "40px" }}>
+                            <div className="lust centered" style={{ color: "gray" }}>Collective Unconcious Art Show</div>
+                            <div className="poppins centered" style={{ color: "gray" }}>Event Description</div>
                         </Col>
-                        <Col xs={{ span: '12', order: 2 }} md='6' style={{ marginBottom: "40px" }}>
-                            <div className="poppins centered">Event Name</div>
-                            <div className="poppins centered">Event Description</div>
+                        <Col xs={{ size: '12', order: 3 }} md='6'>
+                            <img src={eventPageImage1} alt="Event Page Image 1" className="eventpageimages" />
                         </Col>
                     </Row>
                 </Container>
             </div>
             <div id = "ShopPage" style={{ backgroundColor: "#e6c1dd", paddingTop: 50, paddingBottom: 200 }}>
                 <h2 className = "subheader" style={{ paddingBottom: 100 }}>Shop</h2>
-                <Container style={{ display: "flex" }}>
+                <Container fluid style={{ display: "flex" }}>
                     <Row style={{ margin: "auto" }}>
                         <Col xs='12' md='4' style={{ marginBottom: "40px" }}>
                             <img src={shopPageImage1} alt="Shop Page Image 1" className="shoppageimages" />
                             <br />
-                            <div className = "centered poppins">Product Name</div>
+                            <div className = "centered lust" style={{ color: "gray" }}>T-Shirts</div>
                         </Col>
                         <Col xs='12' md='4' style={{ marginBottom: "40px" }}>
                             <img src={shopPageImage1} alt="Shop Page Image 1" className="shoppageimages" />
                             <br />
-                            <div className = "centered poppins">Product Name</div>
+                            <div className = "centered lust" style={{ color: "gray" }}>Sake Bottles</div>
                         </Col>
                         <Col xs='12' md='4' style={{ marginBottom: "40px" }}>
                             <img src={shopPageImage1} alt="Shop Page Image 1" className="shoppageimages" />
                             <br />
-                            <div className = "centered poppins">Product Name</div>
+                            <div className = "centered lust" style={{ color: "gray" }}>Shot Glasses</div>
                         </Col>
                         <Col xs='12'>
-                            <div className = "centered poppins">Disclaimer: Can be bought at location or by following link to online store.</div>
+                            <div className = "centered poppins" style={{ color: "gray" }}>Disclaimer: Can be bought at location or by following link to online store.</div>
                         </Col>
                     </Row>
                 </Container>
             </div>
             <div id = "AboutPage" style={{ backgroundColor: "#61419f", paddingTop: 50, paddingBottom: 700, height: 500 }}>
                 <h2 className = "subheader" style={{ paddingBottom: 100 }}>About Us</h2>
-                <Container style={{ display: 'flex' }}>
+                <Container fluid style={{ display: 'flex' }}>
                     <Row style={{ margin: "auto" }}>
                         <Col xs='12' md='6'>
                             <img src={aboutPageImage} alt="About Page Image" className="aboutpageimages" />

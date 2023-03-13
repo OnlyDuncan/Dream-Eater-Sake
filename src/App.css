@@ -89,8 +89,16 @@
   font-family: "poppins";
 }
 
+.lust {
+  display: flex;
+  justify-content: center;
+  font-family: "lust", serif;
+  font-style: italic;
+  color: white;
+}
+
 .site-footer {
-  background-image: linear-gradient(#cec8ff, white);
+  background-color: rgb(32, 5, 45);
   padding: 20px 0;
 }
 
