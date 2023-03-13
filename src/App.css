@@ -1,14 +1,3 @@
-
-.card-title {
-  font-weight: 500;
-  font-size: 1.25rem;
-}
-
-.card-img-overlay .card-title {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 .nav-link {
   font-family: "lust", serif;
 }
@@ -46,16 +35,29 @@
 .sakepageimages {
   width: 150px;
   height: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .eventpageimages {
   width: 250px;
   height: 150px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
 .shoppageimages {
   width: 200px;
   height: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutpageimages {
@@ -81,6 +83,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.poppins {
+  font-family: "poppins";
 }
 
 .site-footer {
