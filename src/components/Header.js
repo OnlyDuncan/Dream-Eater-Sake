@@ -5,7 +5,7 @@ import { Navbar,
          Nav,
          NavItem,
     } from 'reactstrap';
-import BakuLogo from '../app/assets/img/Portfolio_Project_Logo.png';
+import Logo from '../app/assets/img/Logo.png';
 import { useState } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <Navbar dark color='primary' sticky='top' expand='md'>
             <NavbarBrand href='/' className='ms-5'>
-                <img src= {BakuLogo} alt= "baku logo" className= "float-start" />
+                <img src= {Logo} alt= "Logo" className= "float-start" />
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
             <Collapse isOpen={menuOpen} navbar>

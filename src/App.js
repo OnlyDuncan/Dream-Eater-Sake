@@ -4,9 +4,6 @@ import React from 'react';
 //header
 import Header from './components/Header';
 
-//routing
-import { Routes, Route } from 'react-router-dom';
-
 //homepage
 import HomePage from './pages/HomePage';
 
