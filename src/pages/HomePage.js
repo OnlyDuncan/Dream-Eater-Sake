@@ -4,7 +4,6 @@ import SakePageImage1 from "../app/assets/img/SakePageImage1.png";
 import ArtShowImage from "../app/assets/img/ArtShow.png";
 import FilmFestivalImage from "../app/assets/img/FilmFestival.png";
 import ShopPageImage1 from "../app/assets/img/ShopPageImage1.png";
-import AboutPageImage from "../app/assets/img/AboutPageImage.png";
 
 const HomePage = () => {
     return (
@@ -95,7 +94,7 @@ const HomePage = () => {
                 </Container>
             </div>
 
-            <div id="AboutPage" style={{ backgroundColor: "#61419f", paddingTop: 50, paddingBottom: 700, height: 500 }}>
+            <div id="AboutPage" style={{ backgroundColor: "#61419f", paddingTop: 50, paddingBottom: 750, height: 500 }}>
                 <h2 className="subheader" style={{ paddingBottom: 100 }}>About Us</h2>
                 <Container fluid style={{ display: 'flex' }}>
                     <Row style={{ margin: "auto" }}>
