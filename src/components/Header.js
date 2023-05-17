@@ -5,7 +5,7 @@ import { Navbar,
          Nav,
          NavItem,
     } from 'reactstrap';
-import Logo from '../app/assets/img/Logo.png';
+import Logo from '../app/assets/img/Dreameater Logo.png';
 import { useState } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -13,7 +13,7 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     
     return (
-        <Navbar dark color='primary' sticky='top' expand='md'>
+        <Navbar dark sticky='top' expand='md'>
             <NavbarBrand href='/' className='ms-5'>
                 <img src= {Logo} alt= "Logo" className= "float-start" />
             </NavbarBrand>
@@ -37,7 +37,7 @@ const Header = () => {
                     </NavItem>
                     <NavItem>
                         <Link className='nav-link' activeClass="active" to="ShopPage" spy={true} smooth={true} offset={-130} duration={500}>
-                            Shop
+                            Store
                         </Link>
                     </NavItem>
                     <NavItem>

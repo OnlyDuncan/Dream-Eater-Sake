@@ -7,23 +7,23 @@ const Footer = () => {
             <Container fluid>
                 <Row>
                     <Col xs='12' md='4' className='text-center' style={{ marginBottom: "20px" }}>
-                        <h5 className="lust">Location</h5>
-                        <div className="poppins" style={{ color: "white" }}>
+                        <h5 className="lust" style={{ color: "white" }}>Location</h5>
+                        <div className="poppins" style={{ color: "#DADADA" }}>
                             1313 E Nothing St, Marfa, TX 79843
                         </div>
                     </Col>
                     <Col xs='12' md='4' className='text-center' style={{ marginBottom: "20px" }}>
-                        <h5 className="lust">Social</h5>
-                        <SocialIcon url="https://instagram.com" />{' '}
+                        <h5 className="lust" style={{ color: "white" }}>Social</h5>
+                        <SocialIcon url="https://instagram.com" style={{ color: "white" }} />{' '}
                         <SocialIcon url="https://facebook.com" />
                     </Col>
                     <Col xs='12' md='4' className='text-center'>
-                        <h5 className="lust">Contact</h5>
-                        <a role='button' className='poppins' href='tel:+12345678910' style={{ textDecoration: "none", color: "white" }}>
+                        <h5 className="lust" style={{ color: "white"}}>Contact</h5>
+                        <a role='button' className='poppins' href='tel:+12345678910' style={{ textDecoration: "none", color: "#DADADA" }}>
                             1-234-567-8910
                         </a>
                         <br />
-                        <a role='button' className='poppins' href='mailto:notreal@notreal.co' style={{ textDecoration: "none", color: "white" }}>
+                        <a role='button' className='poppins' href='mailto:notreal@notreal.co' style={{ textDecoration: "none", color: "#DADADA" }}>
                             DreamEaterSake@gmail.com
                         </a>
                     </Col>

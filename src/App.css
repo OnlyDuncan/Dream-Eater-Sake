@@ -13,69 +13,68 @@
 }
 
 .navbar-brand img {
-  width: 200%;
-  height: 200%;
+  width: 130%;
+  height: 100%;
   margin-right: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   max-width: 7rem;
-  transform: translateY(-10%);
 }
 
 .navbar-dark {
-  background-color: #901cad;
-  background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a);
+  background-color: #38155B;
   min-height: 8rem;
 }
 
-.homepage-logo {
-  width: 320px;
-  height: 250px;
+.homepage-hero {
+  margin-top: 7rem;
+  width: 370px;
+}
+
+.frame {
+  background-color: white;
+  border: solid black 2px;
 }
 
 .sakepageimages {
-  width: 150px;
   height: 200px;
+  border: solid black 1px;
   margin: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .eventpageimages {
-  width: 250px;
   height: 150px;
+  border: solid black 1px;
   margin: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 40px;
 }
 
 .shoppageimages {
-  width: 200px;
   height: 200px;
+  border: solid black 1px;
   margin: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .aboutpageimages {
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin: auto;
-  width: 350px;
+  width: 325px;
   margin-bottom: 40px;
 }
 
 .subheader {
   display: flex;
   justify-content: center;
-  color: white;
+  color: #38155B;
   font-family: "lust", serif;
   font-weight: 700;
   font-style: italic;
+}
+
+.productHeader {
+  color: #38155B;
 }
 
 .centered {
@@ -93,11 +92,10 @@
   justify-content: center;
   font-family: "lust", serif;
   font-style: italic;
-  color: white;
 }
 
 .site-footer {
-  background-color: rgb(32, 5, 45);
+  background-color: #38155B;
   padding: 20px 0;
 }
 
