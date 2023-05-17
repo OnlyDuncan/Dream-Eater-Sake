@@ -58,7 +58,7 @@ const HomePage = () => {
                         <Col xs={{ size: '12', order: 1 }} md={{ size: '6', order: 0 }} style={{ marginBottom: "40px" }}>
                             <div className="lust centered productHeader">Once Upon A Dream Film Festival</div>
                             <div className="poppins centered productHeader">
-                                A film festival celebrating the work of dream inspired filmmakers. Featuring films directed by David Lynch, Dali, as well as contemporary artists on the rise. Drinks and samples will be available to compliment the experience. The films will start at 6:00 on April 15th, 2023 and end shortly after midnight.
+                                A film festival celebrating the work of dream inspired filmmakers. Featuring films directed by David Lynch, Dali, as well as contemporary artists on the rise. Drinks and samples will be available to compliment the experience. The films will start at 6:00 PM on December 15th, 2023 and end shortly after midnight.
                             </div>
                         </Col>
                         <Col xs={{ size: '12', order: 0}} md={{ size: '6', order: 1 }}>
@@ -70,7 +70,7 @@ const HomePage = () => {
                         <Col xs={{ size: '12', order: 3 }} md={{ size: '6', order: 2 }} style={{ marginBottom: "40px" }}>
                             <div className="lust centered productHeader">Collective Unconscious Art Show</div>
                             <div className="poppins centered productHeader">
-                                An art show featuring the works of internationally recognized artists and focusing on the theme of dreams. The opening will be April 7th, 2023, at 7:00 PM, where the artists will speak about their work, and there will be free samples of our drinks. Entry is free and all art work is on sale. The show will come down on June 9th, 2023.
+                                An art show featuring the works of internationally recognized artists and focusing on the theme of dreams. The opening will be December 20th, 2023, at 7:00 PM, where the artists will speak about their work, and there will be free samples of our drinks. Entry is free and all art work is on sale. The show will come down on February 20th, 2024.
                             </div>
                         </Col>
                         <Col xs={{ size: '12', order: 2 }} md={{ size: '6', order: 3 }}>
