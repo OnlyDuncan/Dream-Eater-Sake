@@ -1,14 +1,14 @@
 import { Col, Row, Container } from "reactstrap";
-import Hero from "../app/assets/img/Dreameater Hero.png";
-import Logo from "../app/assets/img/Dreameater Logo.png";
-import SakePageImage1 from "../app/assets/img/Sweet Dreams.png";
-import SakePageImage2 from "../app/assets/img/Strange Journeys.png";
-import SakePageImage3 from "../app/assets/img/Dark Nightmares.png";
-import ShopPageImage1 from "../app/assets/img/T Shirt Mockup.png";
-import ShopPageImage2 from "../app/assets/img/Sake Can All 3 Mockup.png";
-import ShopPageImage3 from "../app/assets/img/Mug Mockup.png";
-import ArtShowImage from "../app/assets/img/ArtShow.png";
-import FilmFestivalImage from "../app/assets/img/FilmFestival.png";
+import Hero from "../app/assets/img/Dreameater Hero.webp";
+import Logo from "../app/assets/img/Dreameater Logo.webp";
+import SakePageImage1 from "../app/assets/img/Sweet Dreams.webp";
+import SakePageImage2 from "../app/assets/img/Strange Journeys.webp";
+import SakePageImage3 from "../app/assets/img/Dark Nightmares.webp";
+import ShopPageImage1 from "../app/assets/img/T Shirt Mockup.webp";
+import ShopPageImage2 from "../app/assets/img/Sake Can All 3 Mockup.webp";
+import ShopPageImage3 from "../app/assets/img/Mug Mockup.webp";
+import ArtShowImage from "../app/assets/img/ArtShow.webp";
+import FilmFestivalImage from "../app/assets/img/FilmFestival.webp";
 
 const HomePage = () => {
     return (

@@ -5,7 +5,7 @@ import { Navbar,
          Nav,
          NavItem,
     } from 'reactstrap';
-import Logo from '../app/assets/img/Dreameater Logo.png';
+import Logo from '../app/assets/img/Dreameater Logo.webp';
 import { useState } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 
