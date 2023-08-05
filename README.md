@@ -24,4 +24,4 @@ To Do:
 * Style changes
 
 ## Setup
-To run this project, download the code, open it in your code editor of choice, install the dependencies using npm 'install', and then run it locally using 'npm start'.
+To run this project, download the code, open it in your code editor of choice, install the dependencies using 'npm install', and then run it locally using 'npm start'.
