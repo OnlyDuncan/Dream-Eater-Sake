@@ -1,4 +1,21 @@
-# Getting Started with Create React App and Redux
+# Dreameater Sake
+
+## Table Of Contents
+* [General Info](#general-info)
+* [Technologies](#technologies)
+* [Project Status](#project-status)
+* [Planned Changes](#planned-changes)
+* [Setup](#setup)
+
+## General Info
+
+## Technologies
+
+## Project Status
+
+## Planned Changes
+
+## Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
