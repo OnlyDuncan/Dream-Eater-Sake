@@ -14,14 +14,11 @@ This website is a scrolling webpage for a fake brand of Sake. I made all the ima
 React 18.2.0
 
 ## Project Status
-In Progress
+Complete for Now
 
 ## Planned Changes
 Room for Improvement:
 * Changes to some of the stylization
-
-To Do:
-* Style changes
 
 ## Setup
 To run this project, download the code, open it in your code editor of choice, install the dependencies using 'npm install', and then run it locally using 'npm start'.
